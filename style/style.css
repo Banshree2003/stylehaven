@@ -1,0 +1,213 @@
+*{
+    /* margin: 0%; */
+    
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    background-color: #fef3bd;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+}
+
+.item{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon{
+    margin-left: 200px;
+}
+
+.search1{
+    padding: 4px;
+    border: none;
+    margin-left: 10px;
+}
+
+.nav2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #00b0b5;
+    color: #fff;
+    height: 90px;
+}
+
+ul{
+    display: flex;
+    gap: 80px;
+}
+
+.ul1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.webname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product{
+    height: 500px;
+    width: 100%;
+    height: 600px;
+    background-image: url(/img/Desktop-Background.avif);
+}
+
+.producttitle h1{
+    margin: 40px;
+    color: #442e20;
+}
+
+.productlist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.productlist .pro .productinfo h5{
+    font-size: 10px;
+}
+
+.productlist .pro h3{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.pro{
+    background-color: #fff;
+    padding: 10px;
+}
+
+.productimg{
+    display: flex;
+    justify-content: center;
+}
+
+.productname{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.productinfo{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.cover1 img{
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+}
+
+.covername{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 16px;
+}
+
+.cover{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10px 100px;
+    gap: 10px;
+}
+
+.hh{
+    margin-top: 40px;
+}
+
+.last{
+    height: 40px;
+    background-color: #00b0b5;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+    color: #fff;
+    display: flex;
+    font-size: 8px;
+    align-items: center; 
+    font-weight: 100;
+}
+
+.last h2{
+    margin-left: 20px;
+}
+
+.malecover{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: #ececec;
+}
+
+.maleproducts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.maleproducts h1{
+    font-size: 20px;
+}
+
+.maleproducts h2{
+    font-size: 14px;
+}
+
+.maleproducts h3{
+    margin-bottom: 30px;
+}
+
+.hhhhh{
+    padding: 50px;
+}
+
+button{
+    padding: 10px 50px;
+    background-color: #00b0b5;
+    color: #fef3bd;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: #d1fcff;
+    color: #00b0b5;
+}
+
+.malelast{
+    justify-content: center;
+    align-items: center;
+    /* background-color: #d1fcff; */
+    padding: 60px;
+}
+
+.malelast h1{
+    font-size: 14px;
+}
+
+.malelast p{
+    font-size: 12px;
+}
+
+.login{
+    height: 780px;  
+    background-image: url(https://imagescdn.pantaloons.com/img/app/brands/pantaloons/bg-login.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logininput{
+    background-color: #00b0b5;
+}
